@@ -1,0 +1,12 @@
+{
+  "name": "m3-w3-d2-exercise",
+  "private": true,
+  "scripts": {
+    "scss": "sass css:css --no-source-map",
+    "start": "lite-server"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "sass": "^1.93.2"
+  }
+}

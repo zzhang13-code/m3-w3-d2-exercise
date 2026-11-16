@@ -1,0 +1,5 @@
+@import "reset";
+$accent: #b74631;
+body { padding: 2rem; font-family: Arial, sans-serif; }
+article { max-width: 38rem; border-left: .5rem solid $accent; padding: 1.5rem; background: #fff4ed; }
+h1 { color: $accent; }

@@ -1,0 +1,9 @@
+@mixin panel($background, $foreground) {
+  padding: 2rem;
+  border-radius: 1rem;
+  background: $background;
+  color: $foreground;
+}
+body { margin: 0; padding: 2rem; font-family: Arial, sans-serif; }
+.primary { @include panel(#173b65, white); }
+.secondary { @include panel(#dce9f4, #173b65); margin-top: 1rem; }
