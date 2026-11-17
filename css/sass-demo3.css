@@ -1,20 +1,7 @@
-body {
-  margin: 0;
-  padding: 2rem;
-  font-family: Arial, sans-serif;
-}
-
-.primary {
-  padding: 2rem;
-  border-radius: 1rem;
-  background: #173b65;
-  color: white;
-}
-
-.secondary {
-  padding: 2rem;
-  border-radius: 1rem;
-  background: #dce9f4;
-  color: #173b65;
-  margin-top: 1rem;
+.danger {
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+  border: 1px solid blue;
+  background-color: green;
 }

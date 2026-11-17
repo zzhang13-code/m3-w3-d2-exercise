@@ -1,8 +1,27 @@
 $color-primary: blue;
-$color-pale: #e7efff;
+$color-pale: #dbe8ff;
 $body-font: Arial, Helvetica, sans-serif;
 $header-font: Georgia, serif;
 
-body { padding: 3rem; background: $color-pale; font-family: $body-font; }
-h1 { font-family: $header-font; }
-h2 { color: $color-primary; }
+// Add variables here
+
+body {
+    font-family: $body-font;
+}
+
+h1, h2, h3 {
+    font-family: $header-font;
+}
+
+h2 {
+    color: $color-primary;
+}
+
+header h2 {
+    color: $color-pale;
+}
+
+.site-footer {
+    background-image: linear-gradient($color-pale, white);
+    padding: 20px 0;
+}

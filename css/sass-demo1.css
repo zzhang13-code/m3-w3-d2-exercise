@@ -1,13 +1,20 @@
 body {
-  padding: 3rem;
-  background: #e7efff;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
+h1, h2, h3 {
   font-family: Georgia, serif;
 }
 
 h2 {
   color: blue;
+}
+
+header h2 {
+  color: #dbe8ff;
+}
+
+.site-footer {
+  background-image: linear-gradient(#dbe8ff, white);
+  padding: 20px 0;
 }
